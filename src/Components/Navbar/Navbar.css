@@ -1,0 +1,109 @@
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0b0b0b;
+  color: #ccc;
+  font-size: 12px;
+  padding: 6px 40px;
+}
+
+.offer-text span {
+  color: #00e5ff; /* PlayStation blue vibe */
+  font-weight: 600;
+}
+
+.top-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.main-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #111;
+}
+
+.search-box {
+  display: flex;
+  width: 45%;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.search-box button {
+  background: #006eff;
+  color: white;
+  border: none;
+  padding: 0 20px;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 25px;
+  color: white;
+}
+.category-menu {
+  background: #1a1a1a;
+}
+
+.category-menu ul {
+  display: flex;
+  gap: 40px;
+  font-family: Arial, "Helvetica Neue", -apple-system, sans-serif;;
+  padding: 12px 40px;
+  list-style: none;
+}
+
+.category-menu li {
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.category-menu li:hover {
+  color: #00e5ff;
+}
+.pc-item {
+  position: relative;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #111;
+  min-width: 220px;
+  display: none;
+  flex-direction: column;
+  border: 1px solid #222;
+  z-index: 99;
+}
+
+.dropdown-menu li {
+  padding: 10px 15px;
+  white-space: nowrap;
+}
+
+.dropdown-menu li:hover {
+  background: #1f1f1f;
+  color: #00e5ff;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
