@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link } from "react-router-dom";
 import { useState } from "react";
 import { FiUser, FiShoppingCart, FiMapPin } from "react-icons/fi";
 import { MdKeyboardArrowDown } from "react-icons/md";
@@ -50,14 +51,35 @@ const Navbar = () => {
      <MdKeyboardArrowDown /></span>
       {activeMenu==="laptop" && (
           <ul className="dropdown-menu">
-        <li>Gaming Laptop</li>
-        <li>Office Laptop</li>
+        <li>
+       <Link to="/gaming-laptop">Gaming Laptop
+       </Link></li>
+        <li>
+           <Link to="/office-laptop">Office Laptop
+           </Link></li>
          <li>Student Laptop</li>
       </ul>
           )}
      </li>
     <li>Mobile</li>
-    <li>Gaming Monitor</li>
+    <li
+    className="pc-item"
+  onMouseEnter={() => setActiveMenu("monitor")}
+  onMouseLeave={() => setActiveMenu(null)}
+  >
+    <span className="dropdown">
+    Gaming Monitor
+     <MdKeyboardArrowDown />
+         </span>
+
+          {activeMenu==="monitor" && (
+          <ul className="dropdown-menu">
+        {/* <li>Prebuilt Gaming PC</li> */}
+        <li>
+          <Link to="monitor">Monitor Collection </Link></li>
+        </ul>
+          )}
+    </li>
 
     <li 
     className="pc-item"

@@ -1,0 +1,115 @@
+/* HERO */
+.gaming-hero {
+    /* width:90%; */
+  height: 30vh;
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 60px;
+  color: #fff;
+}
+
+.gaming-hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.gaming-hero-content p {
+  opacity: 0.9;
+}
+
+/* PAGE */
+.gaming-page {
+  padding: 60px;
+  background: #fff;
+  color:#000;
+
+}
+
+.gaming-top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-weight: 500;
+
+  
+}
+.section-title{
+     font-size: 26px;   /* increase as you want */
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-family:"Inter","Open Sans","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif ;
+}
+
+/* GRID */
+.gaming-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+/* CARD */
+.gaming-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #0a0a0a;
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gaming-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+.gaming-card img {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+/* BADGE */
+.badge-new {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #ff004f;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+/* SPECS */
+.specs {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+  font-size: 15px;
+  color: #3970d5;
+}
+
+.specs li {
+  margin-bottom: 4px;
+}
+
+/* PRICE */
+.price-box {
+  margin-top: 15px;
+}
+
+.new-price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #09983b;
+}
+
+.old-price {
+  margin-left: 10px;
+  text-decoration: line-through;
+  color: #888;
+}
