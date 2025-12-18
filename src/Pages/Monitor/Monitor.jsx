@@ -32,7 +32,7 @@ const Monitor = () => {
         <div className="monitor-grid">
           {monitors.map((item) => (
             <Link
-              to={`/monitors/${item.id}`}
+              to={`/product/${item.id}`}
               className="monitor-card"
               key={item.id}
             >

@@ -3,9 +3,10 @@ import laptop4 from "../../assets/Gamelap/acer2.webp";
 import laptop1 from "../../assets/Gamelap/acer3.webp";
 import laptop2 from "../../assets/Gamelap/332.webp";
 
-const laptops = [
+const officelaptops = [
   {
-    id: 1,
+    id: "laptop-1",
+     category:"laptop",
     brand: "ASUS",
     model: "ROG Strix G15",
     cpu: "Ryzen 7 6800H",
@@ -18,7 +19,8 @@ const laptops = [
     isNew: true,
   },
   {
-    id: 2,
+    id: "laptop-2",
+     category:"laptop",
     brand: "MSI",
     model: "Katana GF66",
     cpu: "Intel i7 12th Gen",
@@ -31,7 +33,8 @@ const laptops = [
     isNew: true,
   },
   {
-    id: 3,
+    id: "laptop-3",
+     category:"laptop",
     brand: "Acer",
     model: "Predator Helios 300",
     cpu: "Intel i9 11th Gen",
@@ -44,7 +47,8 @@ const laptops = [
     isNew: false,
   },
   {
-    id: 4,
+    id: "laptop-4",
+    category:"laptop",
     brand: "Lenovo",
     model: "Legion 5 Pro",
     cpu: "Ryzen 7 5800H",
@@ -57,7 +61,8 @@ const laptops = [
     isNew: false,
   },
   {
-    id: 1,
+    id: "laptop-5",
+     category:"laptop",
     brand: "ASUS",
     model: "ROG Strix G15",
     cpu: "Ryzen 7 6800H",
@@ -70,7 +75,8 @@ const laptops = [
     isNew: true,
   },
   {
-    id: 2,
+    id: "laptop-6",
+     category:"laptop",
     brand: "MSI",
     model: "Katana GF66",
     cpu: "Intel i7 12th Gen",
@@ -83,7 +89,8 @@ const laptops = [
     isNew: true,
   },
   {
-    id: 3,
+    id: "laptop-7",
+     category:"laptop",
     brand: "Acer",
     model: "Predator Helios 300",
     cpu: "Intel i9 11th Gen",
@@ -96,7 +103,8 @@ const laptops = [
     isNew: false,
   },
   {
-    id: 4,
+    id: "laptop-8",
+     category:"laptop",
     brand: "Lenovo",
     model: "Legion 5 Pro",
     cpu: "Ryzen 7 5800H",
@@ -110,4 +118,4 @@ const laptops = [
   },
 ];
 
-export default laptops;
+export default officelaptops;

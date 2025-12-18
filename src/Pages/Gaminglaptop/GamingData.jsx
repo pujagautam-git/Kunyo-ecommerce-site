@@ -5,7 +5,7 @@ import laptop2 from "../../assets/Gamelap/332.webp";
 
 const laptops = [
   {
-    id: 1,
+    id: "gaming-1",
     brand: "ASUS",
     model: "ROG Strix G15",
     cpu: "Ryzen 7 6800H",
@@ -18,7 +18,7 @@ const laptops = [
     isNew: true,
   },
   {
-    id: 2,
+    id: "gaming-2",
     brand: "MSI",
     model: "Katana GF66",
     cpu: "Intel i7 12th Gen",
@@ -31,7 +31,7 @@ const laptops = [
     isNew: true,
   },
   {
-    id: 3,
+    id: "gaming-3",
     brand: "Acer",
     model: "Predator Helios 300",
     cpu: "Intel i9 11th Gen",
@@ -44,7 +44,7 @@ const laptops = [
     isNew: false,
   },
   {
-    id: 4,
+    id: "gaming-4",
     brand: "Lenovo",
     model: "Legion 5 Pro",
     cpu: "Ryzen 7 5800H",
@@ -57,7 +57,7 @@ const laptops = [
     isNew: false,
   },
   {
-    id: 1,
+    id: "gaming-5",
     brand: "ASUS",
     model: "ROG Strix G15",
     cpu: "Ryzen 7 6800H",
@@ -70,7 +70,7 @@ const laptops = [
     isNew: true,
   },
   {
-    id: 2,
+    id: "gaming-6",
     brand: "MSI",
     model: "Katana GF66",
     cpu: "Intel i7 12th Gen",
@@ -83,7 +83,7 @@ const laptops = [
     isNew: true,
   },
   {
-    id: 3,
+    id: "gaming-7",
     brand: "Acer",
     model: "Predator Helios 300",
     cpu: "Intel i9 11th Gen",
@@ -96,7 +96,7 @@ const laptops = [
     isNew: false,
   },
   {
-    id: 4,
+    id: "gaming-8",
     brand: "Lenovo",
     model: "Legion 5 Pro",
     cpu: "Ryzen 7 5800H",

@@ -1,0 +1,101 @@
+/* PAGE WRAPPER */
+.product-details {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* PRODUCT IMAGE */
+.product-details img {
+  width: 420px;
+  max-width: 100%;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+/* RIGHT CONTENT */
+.product-details > div {
+  flex: 1;
+}
+
+/* PRODUCT TITLE */
+.product-details h2 {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+/* PRICE */
+.product-details h3 {
+  font-size: 24px;
+  color: #c62828;
+  margin-bottom: 10px;
+}
+
+/* STOCK */
+.stock {
+  color: green;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* SPECIFICATIONS */
+.product-details h4 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.product-details ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.product-details li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+/* BUTTONS */
+.product-details button {
+  padding: 12px 20px;
+  margin-right: 12px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+.product-details button:first-of-type {
+  background-color: #c62828;
+  color: white;
+}
+
+.product-details button:first-of-type:hover {
+  background-color: #b71c1c;
+}
+
+.product-details button:last-of-type {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+}
+
+.product-details button:last-of-type:hover {
+  border-color: #999;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .product-details {
+    flex-direction: column;
+  }
+
+  .product-details img {
+    width: 100%;
+  }
+}

@@ -5,7 +5,7 @@ import monitor4 from "../../assets/Monitor/122.jpg";
 
 const monitors = [
   {
-    id: 1,
+    id: "monitor-1",
     brand: "ASUS",
     model: "ROG Swift PG259QN",
     size: "24.5 Inch",
@@ -19,7 +19,7 @@ const monitors = [
     isNew: true,
   },
   {
-    id: 2,
+    id: "monitor-2",
     brand: "Acer",
     model: "Predator XB273U",
     size: "27 Inch",
@@ -33,7 +33,7 @@ const monitors = [
     isNew: true,
   },
   {
-    id: 3,
+    id: "monitor-3",
     brand: "MSI",
     model: "Optix MAG274QRF-QD",
     size: "27 Inch",
@@ -47,7 +47,7 @@ const monitors = [
     isNew: false,
   },
   {
-    id: 4,
+    id: "monitor-4",
     brand: "Samsung",
     model: "Odyssey G7",
     size: "32 Inch Curved",

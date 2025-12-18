@@ -1,0 +1,50 @@
+.monitor-details-page {
+  padding: 40px;
+}
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.details-image img {
+  width: 400px;
+  border: 1px solid #ddd;
+}
+
+.details-info h2 {
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #e53935;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.stock {
+  color: green;
+  font-weight: bold;
+}
+
+.action-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.add-cart {
+  background: #c62828;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.wishlist {
+  background: transparent;
+  border: 1px solid #999;
+  padding: 12px 20px;
+  cursor: pointer;
+}

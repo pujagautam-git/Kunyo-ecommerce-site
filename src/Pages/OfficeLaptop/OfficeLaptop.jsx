@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./OfficeLaptop.css";
-import laptops from "./OfficeData";
+import officelaptops from "./OfficeData";
 import officeHero from "../../assets/office/officebanner.png";
 
 const OfficeLaptop = () => {
@@ -23,15 +23,15 @@ const OfficeLaptop = () => {
 
         {/* TOP BAR */}
         <div className="gaming-top-bar">
-          <span className="section-title">🎮 Office Laptops ({laptops.length})</span>
+          <span className="section-title">🎮 Office Laptops ({officelaptops.length})</span>
           <span className="sort">Sort: Featured</span>
         </div>
 
         {/* PRODUCT GRID */}
         <div className="gaming-grid">
-          {laptops.map((item) => (
+          {officelaptops.map((item) => (
             <Link
-              to={`/product/${item.id}`}
+              to={`/product/${item.id}`}   
               className="gaming-card"
               key={item.id}
             >
